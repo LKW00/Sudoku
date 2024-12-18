@@ -99,7 +99,6 @@ bool Solver::backtrack(int row, int col) {
         return backtrack(row, col + 1);
     }
 
-    // Here comes the fun part
     // Create array with randomness instead of normal loop
     // used to generate unique puzzles
     std::array<int, 9> nums {1,2,3,4,5,6,7,8,9};
